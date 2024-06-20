@@ -1,0 +1,163 @@
+body {
+    background-color: #dbdbdb9a;
+}
+/* <div class="em">${emailloginhe}</div> */
+.perant {
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-evenly;
+}
+
+.head {
+    color: #0866ff;
+    font-family: fantasy;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.abc {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 20px grey;
+    width: 350px !important;
+    box-sizing: border-box;
+}
+
+input {
+    width: 340px !important;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.main4{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 0 10px;
+}
+
+.logpe{
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 17px;
+    border: 1px solid black;
+  
+}
+
+.logpe:hover{
+    background-color: whitesmoke;
+    color: red;
+    border: red solid 1px;
+}
+
+.wel{
+    font-weight: bolder;
+    font-size: 35px;
+    color: #0866ff;
+
+}
+
+.abba{
+    margin: 30px 300px 0 300px;
+}
+
+.task {
+    text-align: center;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.task:hover{
+    gap: 10px;
+    border: 2px solid green;
+    background-color: whitesmoke;
+    color: green;
+}
+.del {
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.del:hover{
+    gap: 10px;
+    border: 2px solid red;
+    background-color: whitesmoke;
+    color: red;
+}
+
+#del {
+    margin-bottom: 15px;
+    margin-left: 5px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: 30px;
+}
+#edit {
+    margin-bottom: 15px;
+    margin-left: 5px;
+    text-align: center;
+    background-color: rgb(54, 54, 121);
+    color: white;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.userInput {
+    width: 50%;
+    margin: 0px 10px 0px 10px;
+    margin-left: 200px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 25px;
+}
+
+.setting_haro_baro{
+    margin: 10px 0 5px 10px;
+}
+
+ul,li{
+    font-size: 30px;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.time{
+   color: brown;
+}
+.check{
+    background-color: blue;
+}

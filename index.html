@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <center>
+        <div id="login_page">
+            <div class="perant">
+                <div class="f1 ">
+                    <div class="card abc " style="width: 18rem;">
+                        <h1 class="head">
+                            SIGN IN
+                        </h1>
+                        <input required type="email" class="form-control" placeholder="Email Address" id="html_email"
+                            aria-describedby="emailHelp">
+                        <input type="password" required class="form-control" placeholder="password" id="html_password"
+                            aria-describedby="emailHelp">
+                        <button class="btn btn-primary" onclick="signin()" type="submit">SIGNIN</button>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    <div id="dusra_page">
+        <div class="main4">
+            <h2 class="wel">
+                WellCome &nbsp;&nbsp; : &nbsp;&nbsp;&nbsp; <span id="em"></span>
+            </h2>
+            <button class="logpe" onclick="logpe()">LOGOUT</button>
+        </div>
+        <h1>Todo List</h1>
+        <div class="abba">
+            <input type="text" id="note" placeholder="&nbsp;Enter Your Task" class="userInput">
+            <button onclick="submitNote()" class="task"> Add Task</button>
+            <!-- <button id="deleteall" onclick="deleteallchal()" class="del">Delet All</button> -->
+        </div>
+        <ul id="uidesing">
+
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="main4">-->
+<!-- <button class="logpe" onclick="logpe()">LOGOUT</button> -->
+<!--    </div>
+<div class="wel" id="wel">
+    WellCome &nbsp;&nbsp; : &nbsp;&nbsp;&nbsp; <span id="em"></span>
+</div>
+<div class="text">
+    <textarea class="input1" cols="70" rows="7" id="note" placeholder="Add Your Task"></textarea>
+</div>
+<div class="sum">
+    <button onclick="submitNote()">submit</button>
+</div>
+<ul id="uidesing">
+    
+</ul> -->
